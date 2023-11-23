@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Card(props) {
-    const { title, price, speed, color } = props;
+function Tariff(props) {
+    const { price, speed } = props;
 
     return (
-        <div className="card">
+        <div className="tariff">
             <h3 className="title">Безлимитный {price}</h3>
             <p className="price">руб {price} /мес</p>
             <p className="speed">до {speed} Мбит/сек</p>
@@ -13,4 +13,4 @@ function Card(props) {
     )
 }
 
-export { Card }
+export { Tariff }
