@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       {tariffs.map((tariff) => (
-        <Card
+        <Tariff
           key={tariff.id}
           price={tariff.price}
           speed={tariff.speed}
