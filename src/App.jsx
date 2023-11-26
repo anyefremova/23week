@@ -14,10 +14,10 @@ function App() {
     <div className="App">
       {tariffs.map((tariff) => (
         <Tariff
-          color={tariff.color}
           key={tariff.id}
           price={tariff.price}
           speed={tariff.speed}
+          color={tariff.color}
         />
       ))}
     </div>
