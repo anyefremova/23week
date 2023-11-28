@@ -11,8 +11,8 @@ const tariffs = [
 
 function App() {
   return (
-    <div className={styles.cardList}>
-      {tariffs.map((tariff, index) => (
+    <div className="App">
+      {tariffs.map((tariff) => (
         <Tariff
           key={tariff.id}
           title={tariff.title}

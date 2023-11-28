@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Tariff.module.scss';
 
 function Tariff(props) {
     const { price, speed, color } = props;
