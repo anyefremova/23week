@@ -1,0 +1,57 @@
+.tariff {
+    margin-right: 2px;
+    width: 18vw;
+
+    .red {
+        background-color: #D95030;
+    }
+
+    .green {
+        background-color: #1CAC78;
+        color: white;
+    }
+
+    .blue {
+        background-color: #30D5C8;
+    }
+
+    .black {
+        background-color: #282828;
+    }
+
+    .title {
+        color: white;
+        margin-bottom: 2px;
+        min-height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .price {
+        color: white;
+        margin: 2px 0;
+        min-height: 11vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .speed {
+        background-color: #E5E4E2;
+        margin: 0;
+        min-height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .details {
+        background-color: #D0D0D0;
+        margin: 0;
+        padding: 2px 5px;
+        min-height: 7vh;
+    }
+
+
+}
