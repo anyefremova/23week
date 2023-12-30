@@ -63,10 +63,10 @@
     display: flex;
     flex-direction: column;
     height: 250px;
-}
 
-.tariff.selected {
-    box-shadow: 0 0 10px black;
-    width: 300px;
-    transform: scale(1.2);
+    &.activeTarif {
+        box-shadow: 0 0 10px black;
+        width: 300px;
+        transform: scale(1.2);
+    }
 }
